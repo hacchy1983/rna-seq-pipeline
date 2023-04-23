@@ -1,12 +1,10 @@
 ---
-version: 1.2
+version: 1.3
 workflows:
-   - name: rna-seq-pipeline
+   - name: rna-seq-pipeline-per-sample
      publish: True
      subclass: WDL
-     primaryDescriptorPath: /rna-seq-pipeline.wdl
-     testParameterFiles:
-         - /test/test_dockstore/dockstore_test_input.json
+     primaryDescriptorPath: /rna-seq-pipeline-per-sample.wdl
      authors:
-       - name: Otto Jolanki
-         orcid: https://orcid.org/0000-0001-8601-4849
+       - name: Tsuyoshi Hachiya
+         orcid: https://orcid.org/0000-0002-5274-3266
