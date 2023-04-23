@@ -5,6 +5,8 @@ workflows:
      publish: True
      subclass: WDL
      primaryDescriptorPath: /rna-seq-pipeline-per-sample.wdl
+     testParameterFiles:
+         - /test/test_dockstore/dockstore_test_input.json
      authors:
-       - name: Tsuyoshi Hachiya
-         orcid: https://orcid.org/0000-0002-5274-3266
+         - name: Tsuyoshi Hachiya
+           orcid: https://orcid.org/0000-0002-5274-3266
